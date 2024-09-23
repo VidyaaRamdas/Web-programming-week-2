@@ -1,0 +1,50 @@
+:root {
+    --primary-bg-color: #b7d0ff;
+    --border-color: gray;
+    --tiny: 6px;         
+    --huge: 12px;         
+    --font-size: 16px;
+}
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+td, th {
+    padding: var(--tiny);
+    border-bottom: 1px solid var(--border-color);
+}
+
+th {
+    background-color: var(--primary-bg-color);
+    font-weight: bold;
+    padding: var(--huge) var(--tiny);
+    border-bottom: 2px solid var(--border-color);
+}
+
+table {
+    border-collapse: collapse;
+    font-size: var(--font-size);
+    text-align: left;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.center {
+    margin: auto;
+    padding: 60px;
+    width: 60%;
+}
+
+h1 {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
